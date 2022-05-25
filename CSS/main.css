@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+}
+.try {
+    color: palevioletred;
+    border-radius: 15px;
+    background-color: white;
+    border-color: rgb(204, 22, 83);
+    float: right;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    border-width: 0.1px;
+}
+.Get-Started-For-Free {
+    background-color: #e7769c;
+    color: white;
+    border-radius: 19px;
+    border-color: rgb(231, 118, 156);
+    padding: 0px 39px ;
+    border-width: 0px;
+    margin-bottom: 20px;
+}
+#build-the-community {
+    text-align: center;
+}
+#huddle-newsletter {
+    color: white;
+}
+
+.section {
+    background-image: url('../images/bg-footer-top-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 1460px 300px;
+}
+button {
+    max-width: 100%;
+}
+.community {
+    margin-right: 170px;
+}
+
+h3 {
+    color: rgb(3, 51, 3);
+    text-align: center;
+    font-size: 1.7em;
+    font-family: sans-serif;
+    /* font-weight: 900; */
+}
+h4 {
+    font-size: 1.6em;
+    color: rgb(3, 51, 3);
+}
+ ul {
+    list-style: none;
+    margin-top: 10px;
+}
+ ul, li {
+     display: inline-block;
+ }
+ h1 {
+     font-size: 2.9em; 
+     font-family: sans-serif;
+     margin: 4px 0;
+     color: rgb(8, 29, 8);
+ }
+ #li-img {
+     width: 40px;
+     height: 34px;
+ }
+ #illustration {
+     width: 400px;
+     height: 214.38px;
+ }
+ /* .illustration-grow-together {
+     float: right;
+ } */
+ .grow-together {
+     background-image: url('../images/bg-section-bottom-desktop-1.svg') ;
+     background-repeat: no-repeat;
+     background-size: 1440px 400px;
+     margin-bottom: 70px;
+ }
+ .flowing-conversation {
+     float: right;
+     margin-top: 25px;
+ }
+ 
+ /* h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+}  
+ .ul {
+     margin: 0 0 0 0 ;
+    list-style: none;
+    margin: 0;
+    margin: 0;
+}
+.ul h2 {
+    display: block;
+    min-height: 25px;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    padding: 0 0 0 29px;
+}
+.ul li.huddle h2 {
+    background-image: url('../images/huddle.svg');
+}  */
+p {
+    font-size: 11px;
+    font-family: sans-serif;
+}
+#section {
+    color: white;
+    font-size: 12px;
+    font-family: none;
+}
+.p {
+    color: rgb(6, 109, 6);
+}
+.mockup {
+    max-width: 100%;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+/*THE FOOTER  STYLES */ 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
