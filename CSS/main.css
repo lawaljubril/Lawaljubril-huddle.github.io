@@ -24,13 +24,16 @@ body {
     text-align: center;
 }
 #huddle-newsletter {
-    color: white;
+    color: rgb(64, 64, 146);
 }
 
 .section {
     background-image: url('../images/bg-footer-top-mobile.svg');
     background-repeat: no-repeat;
-    background-size: 1460px 300px;
+    background-size: 1460px 360px;
+}
+/* .p#section*/ .weekly-newspaper { 
+    color: rgb(64, 64, 146);
 }
 button {
     max-width: 100%;
@@ -54,9 +57,27 @@ h4 {
     list-style: none;
     margin-top: 10px;
 }
- ul, li {
+
+
+ #list-inline-block {
      display: inline-block;
  }
+
+.phone-mail  p{
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin-bottom: 10px;
+}
+.phone-mail li.phone p#section {
+    background-image: url('../images/phone.png');
+}
+.phone-mail li.mail p#section {
+    background-image: url('../images/gmail.png');
+}
+
  h1 {
      font-size: 2.9em; 
      font-family: sans-serif;
@@ -71,13 +92,11 @@ h4 {
      width: 400px;
      height: 214.38px;
  }
- /* .illustration-grow-together {
-     float: right;
- } */
- .grow-together {
+ 
+.grow-together {
      background-image: url('../images/bg-section-bottom-desktop-1.svg') ;
      background-repeat: no-repeat;
-     background-size: 1440px 400px;
+     background-size: 1440px 260px;
      margin-bottom: 70px;
  }
  .flowing-conversation {
@@ -85,26 +104,6 @@ h4 {
      margin-top: 25px;
  }
  
- /* h2 {
-    font-family: sans-serif;
-    font-weight: 900;
-}  
- .ul {
-     margin: 0 0 0 0 ;
-    list-style: none;
-    margin: 0;
-    margin: 0;
-}
-.ul h2 {
-    display: block;
-    min-height: 25px;
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    padding: 0 0 0 29px;
-}
-.ul li.huddle h2 {
-    background-image: url('../images/huddle.svg');
-}  */
 p {
     font-size: 11px;
     font-family: sans-serif;
@@ -113,6 +112,12 @@ p {
     color: white;
     font-size: 12px;
     font-family: none;
+}
+#section-spam {
+    color: white;
+    font-size: 12px;
+    font-family: none;
+    color: rgb(64, 64, 146);
 }
 .p {
     color: rgb(6, 109, 6);
@@ -124,8 +129,9 @@ p {
 }
 /*THE FOOTER  STYLES */ 
 .attribution { 
-    font-size: 11px; 
+    font-size: 15px; 
     text-align: center; 
+    color: white;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
